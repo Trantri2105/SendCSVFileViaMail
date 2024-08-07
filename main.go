@@ -77,8 +77,8 @@ func sendCSVFileViaMail(subject string, body string, filePath string, to []strin
 
 func main() {
 	loadEnvVariable()
-	filePath := "C:\\Users\\tring\\Downloads\\test.csv"
-	to := []string{"tringuyenhn03@gmail.com"}
+	filePath := "example.csv"
+	to := []string{"example@gmail.com"}
 	subject := "CSV file"
 	body := "Hello world"
 	err := sendCSVFileViaMail(subject, body, filePath, to)
